@@ -17,8 +17,45 @@
         
    </div>
    <div class="right">
+        
+        
+        <div class="description">
+            <div class="first-text">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aliquam mollitia esse pariatur, eligendi laborum sit ullam, sequi labore quos cumque obcaecati quo beatae fugiat numquam.</p>
+            </div>
+            <div class="second-text">
+                <p> Over 100 satisfied customers!</p>
+            </div>
+        </div>
 
-   </div>
+        <div id="forum">
+            <form action="https://httpbin.org/post" method="post">
+                <div class="forum-wrap">
+                    <div class="forum-row">
+                        <div class="forum-element">
+                            <label for="first_name">First name</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="Bob" pattern="^[a-zA-Z ]*$" required="">
+                        </div>
+                        <div class="forum-element">
+                            <label for="first_name">Last name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Smith" pattern="^[a-zA-Z ]*$" required="">
+                        </div>
+                    </div>
+                    <div class="forum-row">
+                        <div class="forum-element">
+                            <label for="user_mail">E-mail</label>
+                            <input type="email" id="user_mail" name="user_mail" placeholder="bob.smith@example.com" pattern="^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$" required="">
+                        </div>
+                        <div class="forum-element">
+                            <label for="relevantInfo">Problem Description:</label>
+                            <textarea id="relevantInfo" name="relevantInfo" placeholder="Briefly explain whatever computer problem youre having." required=""></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+   
+    </div>
     
 </body>
 <script src="java.js"></script>
