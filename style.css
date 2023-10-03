@@ -49,7 +49,7 @@
     height: 90vh;
     margin-top: 50px;
     margin-left: 50px;
-    gap: 10px;
+    gap: 0px;
     background-color: #2b2a2a;
     justify-content: center;
     align-items: baseline;
@@ -59,21 +59,29 @@
 }
 .right-container{
     margin: 75px;
+    
 }
 
 .description{
     width: auto;
     margin-bottom: 0px;
+    filter: drop-shadow(5px 5px 10px black)
     
+}
+.first-text span{
+    font-weight: bold;
+    color: rgb(6, 116, 180);
 }
 
 #forum{
     display: flex;
     flex-flow: column wrap;
     width: 2%;
+    filter: drop-shadow(5px 5px 10px black)
+    
 }
 .forum-row{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 100px;
 }
