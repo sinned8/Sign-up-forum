@@ -81,6 +81,8 @@
 }
 .forum-wrap{
     gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .forum-row{
     display: flex;
@@ -92,7 +94,8 @@
     border-radius: 7px;
     background-color: #444444;
     color: white;
-    border: 1px solid #3d3d3d
+    border: 1px solid #3d3d3d;
+    height: 22px;
 }
 .forum-element input:focus{
     border: 1px solid rgb(6, 116, 180);
@@ -125,7 +128,7 @@ textarea {
     border-radius: 10px;
     padding: .5rem 1rem;
     margin-top: 2rem;
-    font-family: Kanit,sans-serif;
+    font-family: inherit;
     color: white;
     font-size: 1rem;
     transition: border 180ms,color 180ms,background-color 180ms;
