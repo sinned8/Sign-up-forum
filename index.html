@@ -41,7 +41,7 @@
                                 <input type="text" id="first_name" name="first_name" placeholder="Bob" pattern="^[a-zA-Z ]*$" required="">
                             </div>
                             <div class="forum-element">
-                                <label for="first_name">Last name</label>
+                                <label for="last_name">Last name</label>
                                 <input type="text" id="last_name" name="last_name" placeholder="Smith" pattern="^[a-zA-Z ]*$" required="">
                             </div>
                         </div>
@@ -51,15 +51,22 @@
                                 <input type="email" id="user_mail" name="user_mail" placeholder="bob.smith@example.com" pattern="^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$" required="">
                             </div>
                             <div class="forum-element">
+                                <label for="user_phone">Phone number</label>
+                                <input type="tel" id="user_phone" name="user_phone" placeholder="123-4567-8900" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+                            </div>
+                            
+                        </div>
+                        <div class="forum-row">
+                            <div class="forum-element">
                                 <label for="relevantInfo">Problem Description:</label>
-                                <textarea id="relevantInfo" name="relevantInfo" placeholder="Briefly explain whatever computer problem youre having." required=""></textarea>
+                                <textarea id="relevantInfo" name="relevantInfo" placeholder="Briefly explain whatever computer problem you are having." required=""></textarea>
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
-    
-            <button class="create-bttn">Submit Request</button>
+<!--     
+            <button class="create-bttn">Submit Request</button> -->
         </div>
         
    
