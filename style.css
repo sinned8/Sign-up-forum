@@ -1,19 +1,17 @@
-@font-face {
-    font-family: 'CLICKUPER';
-    src: url("https://fontlibrary.org//face/clickuper");
-}
+
 @font-face {
     font-family: 'LIERA';
-    src: url("https://fontlibrary.org//face/liera-sans");
+    src: url("Fonts/LieraSans/LieraSans-Regular.ttf");
 }
 
 
 :root, body{
-    background-color: dimgray;
+    background-color: #444444;
     display: flex;
     margin: 0 auto;
     width: 100vw;
     height: 100vh;
+    font-family: 'LIERA'
 }
 .left{
     background: url('Images/largebackground.avif');
@@ -22,6 +20,9 @@
     height: 100vh;
     width: 45vw;
     position: relative;
+    
+
+
 }
 
 .titleBox{
@@ -32,6 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .logo{
@@ -39,5 +41,39 @@
     height: 200px;
     filter: drop-shadow(5px 5px 10px black)
 }
+.right{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 10px;
+    background-color: #2b2a2a;
+    justify-content: center;
+    align-items: baseline;
+    color: white;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 10px black)
+}
+.right-container{
+    margin: 75px;
+}
 
+.description{
+    width: auto;
+    margin-bottom: 0px;
+    
+}
 
+#forum{
+    display: flex;
+    flex-flow: column wrap;
+    width: 2%;
+}
+.forum-row{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
